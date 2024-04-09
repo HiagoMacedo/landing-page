@@ -121,6 +121,28 @@ body {
 
 .quotes {
   background: #e5e7eb;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.quotes .quotes-text {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+  inline-size: 800px;
+  overflow-wrap: break-word;
+}
+
+.quotes .quotes-person {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1f2937;
+  padding-left: 400px;
 }
 
 
